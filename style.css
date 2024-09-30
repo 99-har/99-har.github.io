@@ -1,0 +1,151 @@
+html{
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+#logo{
+    margin: 0px;
+    font-family: "Dancing Script", sans-serif;
+    padding: 20px;
+}
+
+ul{
+    margin: 0px;
+}
+
+#mainheader{
+    font-weight: 300;
+}
+
+body > header{
+    background-color: rgb(155, 196, 220);
+    color:white
+}
+
+#mainheader{
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: left ;
+}
+
+body > header > nav > ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color:white;
+    text-decoration:none;
+    font: 13px sans-serif;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+#nav-ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    /* align-items: center; */
+}
+
+#nav-ul > li{
+    margin: 8px;
+    padding: 16px;
+
+}
+
+#maincontent{
+    display: flex;
+}
+
+#maincontent aside {
+    width: 20%;
+}
+
+body > main article {
+    width: 70%;
+    margin:auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#plans {
+    display: flex;
+    
+
+}
+#plans > li {
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#plans a {
+    text-decoration: none;
+    color: blueviolet;
+
+}
+
+form {
+    padding: auto;
+    margin-left: 10%; 
+    text-align: left;
+}
+
+body > footer{
+    background-color: rgb(11, 67, 19);
+    display: flex;
+}
+
+body > footer > h2{
+    padding: 10px;
+}
+
+#dest li{
+    
+    list-style: none;
+}
+
+#dest a{
+    text-decoration: none;
+}
+
+
+img {
+    /* border-radius: 100%; */
+    max-width: 50vw;
+    height: auto;
+}
+
+footer h2{
+    color: wheat;
+    font-family: "Dancing Script", sans-serif;
+}
+
+footer > section{
+    display: flex;
+    align-self: center;
+}
+
+footer a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
